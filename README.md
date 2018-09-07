@@ -28,6 +28,10 @@ It will be create a vendor folder for autoload
 4. Be sure you have .env file in project with correct settings, specially in DB and MAIL. By default **This file is not comming within folder project** You have to clone from .env.example and setting with these values
 
 ```
+cp .env.example .env
+```
+
+```
 APP_NAME=merqueo.com
 
 DB_CONNECTION=mysql
